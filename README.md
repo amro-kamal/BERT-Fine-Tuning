@@ -11,7 +11,7 @@ This command will download Google Apps reviews dataset as a .csv file. You can u
 To run the code use this command:
 
 ````
-!python BERT_finetunning/train.py \`
+!python BERT_finetunning/src/train.py \`
   --data_path=./reviews.csv \
   --batch_size=32 \
   --epochs=2 \
